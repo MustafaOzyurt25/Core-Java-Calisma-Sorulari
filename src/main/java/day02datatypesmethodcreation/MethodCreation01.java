@@ -19,7 +19,7 @@ public class MethodCreation01 {
         System.out.println("multiplyFirstTwoNumberAndaddThird(2,3,5) = " + multiplyFirstTwoNumberAndaddThird(2, 3, 5));
         System.out.println("getCube(2.5) = " + getCube(2.5));
         printWord("Ahmet");
-        
+
 
     }//main
 
@@ -49,12 +49,11 @@ public class MethodCreation01 {
     }
 
     //Ornek 5: Girilen bir kelimeyi ekrana yazdiran bir method olusturup kullaniniz
-    
-    public static void printWord (String word){
+
+    public static void printWord(String word) {
 
         System.out.println(word);
     }
-    
 
 
 }// class
