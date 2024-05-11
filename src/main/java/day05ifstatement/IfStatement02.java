@@ -56,7 +56,6 @@ public class IfStatement02 {
                         Scanner scanner = new Scanner(System.in);
         System.out.println("gun isimlerinden birini giriniz..");
         String girilenGunIsmi = scanner.next().toUpperCase();
-
                 if (girilenGunIsmi.equals("CUMA")  ) {
             System.out.println("Muslaman icin kutsal  gun");
         }
@@ -67,6 +66,10 @@ public class IfStatement02 {
         if (girilenGunIsmi.equals("PAZAR")  ) {
             System.out.println("HRIST icin kutsal  gun");
         }
+        
+        
+        
+        
                 
                 
                 
