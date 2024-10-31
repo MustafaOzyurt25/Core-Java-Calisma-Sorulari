@@ -24,7 +24,7 @@ public class MethodCreation01 {
     }//main
 
     //Ornek1: toplama islemi yapan bir method olusturunuz
-    public static int topla(int a, int b) {
+    protected static int topla(int a, int b) {
         //System.out.println("toplam = " + toplam);
         return a + b;
     }

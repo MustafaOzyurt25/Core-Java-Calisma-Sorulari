@@ -132,12 +132,36 @@ public class StringMethods01 {
 
         // 14-replaceAll()
         
+        String str ="Java'da rakamlar 1234567890";
+        System.out.println(str.replaceAll("a", "*"));
+        System.out.println(str.replaceAll("[A-z]", "?"));// ????'?? ???????? 1234567890
+        System.out.println(str.replaceAll("[^A-z]", "?"));// Java?da?rakamlar???????????
+        System.out.println(str.replaceAll("[^0-9]", "*"));// Java?da?rakamlar???????????
+        System.out.println(str.replaceAll("[^ ]", "*"));// Java?da?rakamlar???????????
+        System.out.println(str.replaceAll("[A-z0-9  ]", "*"));// Java?da?rakamlar???????????
         
+        // 15-replaceFirst()
+        System.out.println(str.replaceFirst("[0-9]{1,5}", "--"));
+        System.out.println(str.replaceFirst("lar", "s:"));
 
-
-      
-
+        //16-substring() :
+        String s ="Java OOP konsepti kullanir..";
+        System.out.println(s.replaceFirst("Java", "*"));
+        System.out.println(s.substring(5));
+        System.out.println(s.replaceAll("[A-z]{5}", "*"));
+        System.out.println(s.substring(8, 13));
+//        System.out.println(s.substring(29));  // Range [29, 28) out of bounds for length 28
+        System.out.println(s.length());
+//        System.out.println(s.substring(15, 5));  Rte
         
+        // 17-trim()
+        String ss ="    Java da java . ogrenmesi cok kolay     ";
+        System.out.println(ss);
+        System.out.println(ss.length());
+        System.out.println(ss.trim().length());
+        System.out.println(ss.length());
+
+
     }
 
 
